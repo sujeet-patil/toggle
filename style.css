@@ -1,0 +1,23 @@
+.myStyle {
+    background-color: coral;
+    padding: 16px;
+  }
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    border: 0.5px solid black;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.active, .btn:hover{
+    background-color: #666;
+    color: white;
+}
